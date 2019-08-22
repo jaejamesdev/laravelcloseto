@@ -1,0 +1,20 @@
+{
+    "name": "jaejamesdev/laravelcloseto",
+    "description": "A simple package that allows you to get the closest record to a given latitude and longitude.",
+    "type": "composer-plugin",
+    "license": "MIT",
+    "require": {},
+    "minimum-stability": "dev",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "jaejamesdev\\laravelcloseto\\LaravelCloseToServiceProvider"
+            ]
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "JaeJamesDev\\LaravelCloseTo\\": "src/"
+        }
+    }
+}
